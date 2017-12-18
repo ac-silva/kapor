@@ -1,0 +1,31 @@
+{
+  "name": "kapor",
+  "version": "0.0.0",
+  "description": "Simple Excel File Parser",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ac-silva/kapor.git"
+  },
+  "keywords": [
+    "excel",
+    "cell",
+    "cellname",
+    "covert",
+    "converter",
+    "parse",
+    "parser"
+  ],
+  "author": "Arthur Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ac-silva/kapor/issues"
+  },
+  "homepage": "https://github.com/ac-silva/kapor#readme",
+  "dependencies": {
+    "xlsx": "^0.11.14"
+  }
+}
