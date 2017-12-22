@@ -7,19 +7,23 @@ NodeJS Excel file parser
 
 Install
 =======
-    npm install kapor
-
+```sh
+npm install kapor
+```
 Use
 ====
-    var kapor = require('kapor');
-    kapor('Spreadsheet.xlsx').then((data) => {
-        // data is an array of arrays
-    });
+```js
+var kapor = require('kapor');
+kapor('Spreadsheet.xlsx').then((data) => {
+    // data is an array of arrays
+});
+```
     
 If you use async/await, 
+```js
+data = await kapor('Spreadsheet.xlsx');
+```
 
-    data = await kapor('Spreadsheet.xlsx');
-    
 Test
 =====
 Run `npm test`
